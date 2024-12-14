@@ -1,0 +1,198 @@
+*{
+    background-color: whitesmoke;
+}
+ul {
+  list-style-type: none; 
+}
+ .membre-detail {
+  background-color: white;
+ }
+ .membre-liste{
+  color: aqua;
+    background-color: white;
+
+}
+
+
+.card-details{margin-bottom: 10px;
+margin-left: 30%;
+width: 40%;
+}
+
+.product-section-detail{
+background: white;
+padding: 0.5rem;
+text-align: center;
+font-size: 20px
+}
+.h-100 div {
+ /* width: 100%;*/
+}
+ 
+.detail {
+ text-align:center;
+}
+
+head {
+    display: none;
+}
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+html {
+  font-size: 62.5%; /for using REM units/
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Fira Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.618;
+}
+h5 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 3.125rem;
+}
+h2 {
+  font-size: 3.9063rem;
+}
+h1 {
+  font-size: 4.8828rem;
+}
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1rem;
+}
+.image-section {
+  width: 100%;
+  padding: 0.5rem;
+}
+.product-section {
+  width: 100%;
+  background: white;
+  padding: 0.5rem;
+}
+.product-image {
+  width: 70%;
+    margin-left: 15%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgb(5, 46, 51, 0.1);
+}
+@media (max-width: 768px) {
+  .image-section {
+    width: 100%;
+  }
+
+  .product-section {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .card {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    max-width: 60%;
+  }
+}
+.bg-grey {
+  background-color: rgb(245, 243, 243);
+}
+.bg-white {
+  background-color: white;
+  color: black;
+}
+.card {
+  box-shadow: 0 2px 20px rgb(5, 46, 51, 0.1);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 3rem;
+  background-color: white;
+}
+.text-center {
+  text-align: center;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-row {
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product-price {
+  color: rgb(59, 59, 59);
+  font-size: 90%;
+  background: white;
+}
+.product-title {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  background: white;
+}
+.product-description {
+  font-size: 95%;
+  background: white;
+}
+.h-100 {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+.header-c h1{
+
+  text-align: center;
+}
+@media screen and (max-width: 720px){
+html {
+    background-color: brown;
+    font-size: .25vw;
+}
+html {
+    font-size: 1px;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
+html {
+    line-height: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+::selection {
+    background: #0fa;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+}

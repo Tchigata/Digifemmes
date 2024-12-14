@@ -1,0 +1,53 @@
+<html lang="fr-FR"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Accueil • Groupie-tracker</title>
+<meta name="description" content="Groupie-tracker">
+
+
+<link rel="stylesheet" type="text/css" href="/styles/style.css ">
+</head>
+
+</head>
+<body class="home ">
+
+<header id="main-header">
+
+  <div class="header-c">
+    <h1>Groupie-Tracker</h1>
+  
+  </div>
+</header>
+
+<div class="h-100">
+  <div class="container mx-auto">
+      {{ range $key, $artist := .Artists }}
+      <div class="card mx-auto flex-row">
+          <div class="image-section">
+              <img src="{{ $artist.Image }}" class="product-image" alt="product-photo">
+          </div>
+          <div class="product-section">
+              <h5 class="product-title">{{ $artist.Name }}</h5>
+              <p class="product-description">CreationDate:{{ $artist.Creationdate }}</p>
+              <p class="product-price">FirstAlbum :{{ $artist.Firstalbum }}</p>
+          </div>
+          <button class="detail"><a href="detail?id={{ $artist.Id }}">Detail</a></button>
+      </div>
+      {{ end }}
+      <br>
+      <br>
+  </div>
+</div>
+<footer id="footer">
+
+  <div class="mention-p">
+    © Copyright DigiFemmes academy
+  </div>
+</footer>
+
+</body>
+</html>

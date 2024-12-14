@@ -1,0 +1,84 @@
+{{range .Posts}}
+<div class="row">
+
+    <div class="col-lg-6 offset-lg-3">
+
+        <div class="cardbox shadow-lg bg-white">
+            <a href="./det_post?post_id={{.ID}}">
+                <div>
+                    <div class="cardbox-heading">
+                        <!--/ dropdown -->
+                        <div class="media m-0">
+                            <div class="media-body">
+                                <p class="m-0">{{.Author}}</p>
+                            </div>
+                        </div>
+                        <!--/ media -->
+                    </div>
+                    <!--/ cardbox-heading -->
+                    <div class="cardbox-item">
+                        <h3>{{.Title}}</h3>
+                    </div>
+                    <div class="cardbox-item">
+                        <p>{{.Text}}</p>
+                    </div>
+                </div>
+            </a>
+            <!--/ cardbox-item -->
+            <div class="cardbox-base">
+                <ul class="float-right">
+                    <li><a><i class="fa fa-comments"></i></a></li>
+                    <li><a><em class="mr-5">{{.Comments}}</em></a></li>
+                </ul>
+                <ul>
+                    <li><a><i class="fa fa-thumbs-up" post_id="{{.ID}}" onclick="likeIt(this, 1)"></i></a>
+                    </li>
+                    <li><a><span>{{.Likes}}</span></a></li>
+                </ul>
+                <ul>
+                    <li><a><i class="fa fa-thumbs-down" post_id="{{.ID}}" onclick="likeIt(this, 0)"></i></a>
+                    </li>
+                    <li><a><span>{{.Dislikes}}</span></a></li>
+                </ul>
+            </div>
+            <br>
+            <!--/ cardbox-like -->
+
+        </div>
+        <!--/ cardbox -->
+
+    </div>
+
+
+</div>
+{{end}}
+
+<script>
+
+    function likeIt(elem, isLike) {
+        postId = elem.getAttribute("post_id") //console.log(elem.getAttribute("post_id"))
+        let likeBody = {
+            post_id: parseInt(postId),
+            is_like: parseInt(isLike)
+        }
+        $.ajax(
+            {
+                url: "./like",
+                type: "POST",
+                data: JSON.stringify(likeBody),
+                success: function (data, textStatus, xhr) {
+                    location.reload()
+                },
+                error: function (e) {
+                    // alert(e.status)
+                    if (e.status == 401) {
+                        window.location = "./signin";
+                    } else {
+                        alert(e.responseText)
+                    }
+
+                },
+            }
+        )
+    }
+</script>

@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=nG_ijlG7fiA // video youtube
+
+https://www.youtube.com/watch?v=TrTlzn4JFRQ// Pour creer les aliens et gerer leurs deplacement
+
+
+https://www.youtube.com/watch?v=MCVU0w73uKI// english ressources
+
+
+https://linuxhint.com/marshal-unmarshal-golang/ Pour des recherches en golang
+
+
+On a crée le joueur c'est à dire le petit carré puis on l'a parametrer 
+Ensuite on crée les missiles
+Gestion des missiles à travers les fonctions addEventListener et update
+
+Creation des aliens

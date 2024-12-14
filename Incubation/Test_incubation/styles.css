@@ -1,0 +1,808 @@
+/* Hero Section */
+.hero {
+  background: #f5f5f5;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  width: 60%;
+  max-width: 400px;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #f8b400;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #e0a300;
+}
+
+/* Carousel Styles */
+.carousel {
+  margin-bottom: 2rem;
+}
+
+.carousel h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  scroll-behavior: smooth;
+}
+
+.carousel-item {
+  min-width: 200px;
+  padding: 1rem;
+  background: #f8b400;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  flex: none;
+}
+
+/* Services Section */
+.services {
+  background: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.service-card button {
+  padding: 0.5rem 1rem;
+  background: #f8b400;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.service-card button:hover {
+  background: #e0a300;
+}
+/* Hero Section */
+.hero {
+    background: #f5f5f5;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    width: 60%;
+    max-width: 400px;
+  }
+  
+  .search-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #f8b400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background: #e0a300;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    margin-bottom: 2rem;
+  }
+  
+  .carousel h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-track {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+    min-width: 200px;
+    padding: 1rem;
+    background: #f8b400;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    flex: none;
+  }
+  
+  /* Services Section */
+  .services {
+    background: #f9f9f9;
+    padding: 2rem 0;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .service-card button {
+    padding: 0.5rem 1rem;
+    background: #f8b400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background: #e0a300;
+  }
+  /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #f8b400;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin: 0 1rem;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .search-form {
+    margin-top: 1rem;
+  }
+  
+  .hero .search-form input {
+    padding: 0.5rem;
+    width: 70%;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .hero .search-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #f8b400;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero .search-form button:hover {
+    background: #e69500;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left;
+    width: 300px;
+  }
+  
+  .service-card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background: #e69500;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+
+  /* Header */
+.header {
+    background: #f8b400;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header .nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .services .container {
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services p {
+    margin-bottom: 2rem;
+  }
+  
+  /* Filter Section */
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 40%;
+  }
+  
+  .filter-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    background: #f8b400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-btn:hover {
+    background: #e0a300;
+  }
+  
+  /* Service Cards */
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .service-card button {
+    padding: 0.5rem 1rem;
+    background: #f8b400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .service-card button:hover {
+    background: #e0a300;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+
+/* Hero Section for About */
+.about-hero {
+    background: #f5f5f5;
+    color:#333;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .about-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Content */
+  .about-content {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .about-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content ul {
+    list-style: disc inside;
+    margin: 1rem 0;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Team Section */
+  .about-team {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .about-team h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+/* Hero Section for Contact */
+.contact-hero {
+    background:  #fff;
+    color: #333;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .contact-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Form Section */
+  .contact-form {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .contact-form h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007BFF;
+  }
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background: #0056b3;
+  }
+  
+  /* Contact Info Section */
+  .contact-info {
+    padding: 2rem 0;
+    text-align: center;
+    background: #f8b400;
+    color: #fff;
+  }
+  
+  .contact-info h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+/* liste deroulante  bulle */
+  .autocomplete {
+    position: relative;
+    width: 100%;
+  }
+
+  #service-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #d18181;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  #suggestions li {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+/*profil nounou */
+
+/* Profil de la Nounou */
+.nounou-profile {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .nounou-info {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nounou-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nounou-info p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nounou-info .location,
+  .nounou-info .rating {
+    font-weight: bold;
+  }
+  
+  .nounou-availability,
+  .nounou-prices,
+  .nounou-reviews {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nounou-availability h3,
+  .nounou-prices h3,
+  .nounou-reviews h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nounou-availability ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nounou-availability li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nounou-prices p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nounou-reviews .review {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .nounou-reviews button,
+  .nounou-availability button {
+    padding: 1rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .nounou-reviews button:hover,
+  .nounou-availability button:hover {
+    background: #0056b3;
+  }
+  
+
+  /*garderie*/
+
+  /* Page des garderies */
+.garderies {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .garderie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .garderie-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .garderie-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .garderie-card p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .garderie-card .btn-view-details {
+    padding: 0.8rem 1.2rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .garderie-card .btn-view-details:hover {
+    background: #0056b3;
+  }
+  
+  footer .footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  

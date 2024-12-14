@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ascii-Art Web</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="/assets/css/style.css">-->
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+       
+    </head>
+    <body style="background-color: rgb(154, 75, 93);">
+        <div class="container">
+            <main>
+                <div class="row">
+                    <div class="card col-md-7 col-lg-8 mt-4 shadow border border-5 p-1 mb-3 rounded" style="margin-right: 200px; margin-left: 200px; background-color: teal;">
+                        <div class="card-header text-center text-white">Générateur de code Ascii-art</div>
+                          <div class="card-body form-input">
+                            <form action="/" method="post">
+                                <div class="row">
+                                    <div class="col-sm-6 mt-5">
+                                        <textarea class="input rounded-3" name="input" id="" cols="36" rows="6" placeholder="Saisissez du texte" required>{{.Interieur}}</textarea><br>
+                                    </div>
+                                <div class="col-sm-5 mt-5 rounded-3 border border-gray border-2" name="banniere" style="position: right;">
+                                    <p style="color:white;">Veuillez choisir la police (Font):</p>
+                                    <input type="radio" id="html" name="banniere" value="standard" checked> 
+                                    <label for="html" style="color: white">Standard</label><br>
+                                    <input type="radio" id="html" name="banniere" value="shadow">
+                                    <label for="html" style="color: white">Shadow</label><br>
+                                    <input type="radio" id="html" name="banniere" value="thinkertoy">
+                                    <label for="html" style="color: white">Thinkertoy</label><br>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" style="background-color:gray; color:white;">Afficher</button>
+                                </div>
+                            </div>
+                            </form>
+                          </div>
+                        </div>
+                </div>
+                <div style="padding: 100px; margin:50px; background-color: aliceblue; border-radius: 10px;">
+                    <section class="exterieur">
+                        <pre class="sortie">{{.Exterieur}}</pre>
+                    </section>
+                </div>
+           
+        </main>  
+    </div>
+        <div id ="sortie">
+            <button><a href="fileascii.txt" download>exporter</a></button>
+        </div>
+    </body>
+
+</html>
